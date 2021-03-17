@@ -9,6 +9,7 @@ So, the program should print 2 30. '''
 N = int(input("Enter the minutes passed since midnight: "))
 hours = (N//60)
 minutes = (N%60)
+
 print(f"The hours is {hours} ")
 print(f"The minutes is {minutes} ")
 print(f"Its {hours}:{minutes} now")
